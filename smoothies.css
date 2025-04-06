@@ -1,0 +1,103 @@
+
+  .button-link {
+    text-decoration: none; /* Remove default underline on the link */
+}
+
+/* Style for the button itself */
+h1 {
+    font-size: 20px; /* Adjust the font size of the button */
+    padding: 10px 20px; /* Adjust padding for larger or smaller button */
+    color: rgb(246, 247, 248); /* Change text color to white */
+    border: #060137; /* Remove button border */
+    border-radius: 10px; /* Rounded corners */
+    cursor: pointer; /* Change cursor to a pointer on hover */
+    background-color: #2273bbfd;
+}
+
+/* Change button color on hover */
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Style for the button's placement */
+h1 {
+    text-align: center; /* Center align the button inside the paragraph */
+    margin-top: 50px; /* Adjust margin-top to control button's vertical position */
+}
+
+h2 {
+    text-align: center; /* Center align the button inside the paragraph */
+    margin-top: 50px; /* Adjust margin-top to control button's vertical position */
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    gap: 20px; /* Space between cards */
+    justify-items: center; /* Center items horizontally */
+    padding: 20px;
+    width: 100%; /* Adjust to fit the screen size */
+    margin: 0 auto;
+}
+
+.card {
+    background-color: #f8f9fa; /* Card background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for card */
+    overflow: hidden; /* Prevent image overflow */
+}
+
+.card-img-top {
+    max-height: 1000px; /* Limit image height */
+    object-fit: cover; /* Ensure the image covers the space without distortion */
+}
+
+.card-body {
+    padding: 15px;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 14px;
+}
+
+.container {
+    display: flex;
+    align-items: center; /* Align the items vertically in the center */
+    justify-content: center; /* Align the items horizontally in the center */
+    gap: 20px; /* Add space between the image and the list */
+}
+
+.image-container {
+    max-width: 1000px; /* Set a max width for the image */
+}
+
+.list-container {
+    max-width: 1000px; /* Set a max width for the list */
+}
+
+.card {
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
+    border-radius: 10px;
+}
+
+.card-header {
+    background-color: #f8f9fa; /* Card header background */
+    font-weight: bold;
+    padding: 15px;
+}
+
+.list-group-item {
+    padding: 10px;
+}
+
+.card-img-top {
+    width: 100%;
+    object-fit: cover; /* Ensure the image covers the space without distortion */
+}
