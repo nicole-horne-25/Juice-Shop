@@ -17,7 +17,7 @@ body {
     height: 100vh;
 }
 
-/* Navigation Styles */
+
 nav {
     background-color: #7fb1dd;
     padding: 50px;
@@ -31,7 +31,7 @@ nav {
 }
 
 .menu-item {
-    position: relative; /* Needed for the dropdown */
+    position: relative; 
 }
 
 .menu-item > a {
@@ -49,11 +49,11 @@ nav {
     
 }
 
-/* Style for the dropdown */
+
 .dropdown {
-    display: none; /* Hidden by default */
+    display: none; 
     position: absolute;
-    top: 100%; /* Position it directly below the parent item */
+    top: 100%;
     left: 0;
     background-color: #f3eb56;
     min-width: 160px;
@@ -77,26 +77,26 @@ nav {
     background-color: #ef9fd3;
 }
 
-/* Show the dropdown when hovering over the menu item */
+
 .menu-item:hover .dropdown {
     display: block;
 }
 
-/* Style for the specific link/button to navigate to a new page */
+
 .dropdown-link {
-    color: #f0a5c7; /* Set a different color for the "Go to New Page" link */
-    text-decoration: underline; /* Underline it to differentiate */
+    color: #f0a5c7; 
+    text-decoration: underline; 
 }
 
 .dropdown-link:hover {
-    background-color: #666; /* Hover effect */
+    background-color: #666; 
 }
 
 .content {
-    flex-grow: 1; /* Make this area grow and take up the available space */
+    flex-grow: 1; 
     display: flex;
-    justify-content: center; /* Center the image horizontally */
-    align-items: center; /* Center the image vertically if needed */
+    justify-content: center; 
+    align-items: center; 
 }
 img {
     height: auto;
@@ -108,13 +108,13 @@ img {
 
 .footer {
     position: relative;
-    bottom: 0;   /* Places the footer at the bottom */
-    left: 0;     /* Align to the left edge of the page */
-    width: 100%; /* Makes it span the full width of the page */
-    background-color: #333; /* Background color */
-    color: white;   /* Text color */
-    text-align: center; /* Center the text */
-    padding: 10px 0; /* Padding for spacing */
+    bottom: 0;   
+    left: 0;    
+    width: 100%; 
+    background-color: #333; 
+    color: white;  
+    text-align: center; 
+    padding: 10px 0; 
     margin-top: auto;
 }
 

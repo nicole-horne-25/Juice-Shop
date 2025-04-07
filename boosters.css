@@ -1,54 +1,53 @@
 .button-link {
-    text-decoration: none; /* Remove default underline on the link */
+    text-decoration: none; 
 }
 
-/* Style for the button itself */
+
 h1 {
-    font-size: 20px; /* Adjust the font size of the button */
-    padding: 10px 20px; /* Adjust padding for larger or smaller button */
-    color: rgb(246, 247, 248); /* Change text color to white */
-    border: #060137; /* Remove button border */
-    border-radius: 10px; /* Rounded corners */
-    cursor: pointer; /* Change cursor to a pointer on hover */
+    font-size: 20px; 
+    padding: 10px 20px; 
+    color: rgb(246, 247, 248); 
+    border: #060137; 
+    border-radius: 10px; 
+    cursor: pointer; 
     background-color: #2273bbfd;
 }
 
-/* Change button color on hover */
 button:hover {
-    background-color: #45a049; /* Darker green on hover */
+    background-color: #45a049; 
 }
 
-/* Style for the button's placement */
+
 h1 {
-    text-align: center; /* Center align the button inside the paragraph */
-    margin-top: 50px; /* Adjust margin-top to control button's vertical position */
+    text-align: center; 
+    margin-top: 50px; 
 }
 
 h2 {
-    text-align: center; /* Center align the button inside the paragraph */
-    margin-top: 50px; /* Adjust margin-top to control button's vertical position */
+    text-align: center; 
+    margin-top: 50px; 
 }
 
 .card-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 3 equal columns */
-    gap: 20px; /* Space between cards */
-    justify-items: center; /* Center items horizontally */
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+    justify-items: center; 
     padding: 20px;
-    width: 100%; /* Adjust to fit the screen size */
+    width: 100%; 
     margin: 0 auto;
 }
 
 .card {
-    background-color: #f8f9fa; /* Card background */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for card */
-    overflow: hidden; /* Prevent image overflow */
+    background-color: #f8f9fa; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    overflow: hidden;
 }
 
 .card-img-top {
-    max-height: 1000px; /* Limit image height */
-    object-fit: cover; /* Ensure the image covers the space without distortion */
+    max-height: 1000px; 
+    object-fit: cover; 
 }
 
 .card-body {
@@ -67,27 +66,27 @@ h2 {
 
 .container {
     display: flex;
-    align-items: center; /* Align the items vertically in the center */
-    justify-content: center; /* Align the items horizontally in the center */
-    gap: 20px; /* Add space between the image and the list */
+    align-items: center; 
+    justify-content: center; 
+    gap: 20px; 
 }
 
 .image-container {
-    max-width: 1000px; /* Set a max width for the image */
+    max-width: 1000px; 
 }
 
 .list-container {
-    max-width: 1000px; /* Set a max width for the list */
+    max-width: 1000px; 
 }
 
 .card {
     width: 100%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     border-radius: 10px;
 }
 
 .card-header {
-    background-color: #f8f9fa; /* Card header background */
+    background-color: #f8f9fa; 
     font-weight: bold;
     padding: 15px;
 }
@@ -98,5 +97,5 @@ h2 {
 
 .card-img-top {
     width: 100%;
-    object-fit: cover; /* Ensure the image covers the space without distortion */
+    object-fit: cover; 
 }
